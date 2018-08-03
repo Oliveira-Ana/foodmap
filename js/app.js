@@ -27,8 +27,45 @@
 //};
   
 //})
-$(document).ready(function() {
-    $(document).ready(function() {
-        $('.box-2').delay('5000').fadeIn('slow')
-      });
-    })
+
+//$(document).ready(function() {
+
+  var map;
+  var marks=[];
+
+  function initMap() {
+   map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 8
+    });
+  }
+
+
+
+
+////mapa funcionando
+   $(document).ready(function() {
+    $('.box-1').delay('3000').fadeOut('slow');
+      $('.box-2').delay('3000').fadeIn('slow');   
+
+// var myInputSearch = $('#myInput').val();
+// console.log(myInputSearch);
+
+    // $("#myInput").on("keyup", function() {
+    //   var search;
+    //   var value = $('restaurantes').val().toLowerCase();
+    //   if(value ==''){
+    //     search = $('restaurantes');
+    //   } else {
+    //     search = $('restaurantes').filter(function() {
+    //       return restaurantes.type === value;  
+    //     });
+    //   }console.log(restaurantes);
+    // });
+
+
+       //// var marker = new google.maps.Marker({
+         // position: uluru,
+          //map: map
+        });
+  //  });  
+    

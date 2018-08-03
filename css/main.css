@@ -1,14 +1,4 @@
 /*Add your CSS*/
-/*#map {
-    height: 50%;
-    width: 50%;
-  }
-  /* Optional: Makes the sample page fill the window. */
-  /*html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }*/
 
   .box-1,
 .box-2 {
@@ -20,10 +10,23 @@
 }
 
 .box-1 {
-  background-color: red;
+  background-color: whitesmoke;
+  color: orangered;
+  font-size: 30px;
+  text-align: center
 }
 
 .box-2 {
-  background-color: blue;
+  
   display: none;
+}
+#map {
+  height: 50%;
+  width: 50%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
