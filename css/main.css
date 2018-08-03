@@ -1,11 +1,29 @@
 /*Add your CSS*/
-#map {
+/*#map {
     height: 50%;
     width: 50%;
   }
   /* Optional: Makes the sample page fill the window. */
-  html, body {
+  /*html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-  }
+  }*/
+
+  .box-1,
+.box-2 {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box-1 {
+  background-color: red;
+}
+
+.box-2 {
+  background-color: blue;
+  display: none;
+}
