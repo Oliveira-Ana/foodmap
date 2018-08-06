@@ -16,7 +16,7 @@
 
    })
    $.each(restaurantes, function (index, restaurante) {
-    $("<img>").attr("src", restaurante.image).appendTo(".vitrine").addClass(restaurante.name);
+    $("<img>").attr("src", restaurante.image).appendTo(".imageSelect").addClass(restaurante.name);
    });  
 
        //// var marker = new google.maps.Marker({
